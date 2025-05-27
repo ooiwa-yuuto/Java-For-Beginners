@@ -10,5 +10,6 @@ MyFrame frame3 = new TextTest();
 MyFrame frame4 = new RectAndOval();
 MyFrame frame6 = new RectLoop();
 MyFrame frame5 = new Rectlf();
+MyFrame frame7 = new DisplayRectSlow();
 	}
 }
