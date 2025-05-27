@@ -11,5 +11,6 @@ MyFrame frame4 = new RectAndOval();
 MyFrame frame6 = new RectLoop();
 MyFrame frame5 = new Rectlf();
 MyFrame frame7 = new DisplayRectSlow();
+MyFrame frame8 = new Animation();
 	}
 }
