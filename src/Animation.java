@@ -218,7 +218,11 @@ public class Animation extends MyFrame {
 		
 		
 		
-		while(true) {
+		/*while(true) {
+			while(b >= 40) {
+				clear();
+				fillRect(x,b,10,100);
+				
 			while(x<=200) {
 				clear();
 				fillRect(x,b,10,100);
@@ -243,7 +247,84 @@ public class Animation extends MyFrame {
 				b+= 10;
 				sleep(0.04);
 			}
+			
+			b -= 350;
+			}
+		}*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		while(true) {
+			while(true) {
+				if(x <= 200) {
+					clear();
+					fillRect(x,b,10,100);
+					x+=20;
+					sleep(0.04);
+				}
+				if(x >= 200) {
+				if(b<=200) {
+					clear();
+					fillRect(x,b,10,100);
+					b+= 10;
+					sleep(0.04);
+					if(b<=200) {
+						break;
+					}
+				}
+				
+			}
+				
+			}
+			while(true) {
+				if(x>= 30) {
+					clear();
+					fillRect(x,b,10,100);
+					x-=20;
+					sleep(0.04);
+				}
+				if(x <= 30) {
+				if(b<=400) {
+					clear();
+					fillRect(x,b,10,100);
+					b+= 10;
+					sleep(0.04);
+					if(b<=400) {
+						break;
+					}
+				}
+				}
+			}
+		if(b >= 400) {
+			b-= 350;
+			clear();
+			fillRect(x,b,10,100);
 		}
+		
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }
