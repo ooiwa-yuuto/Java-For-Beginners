@@ -13,7 +13,9 @@ System.out.println("プログラムを実行します。");
 //MyFrame frame7 = new DisplayRectSlow();
 //MyFrame frame8 = new Animation();
 //MyFrame frame9 = new DisplayFace();
-MyFrame f= new DisplayFaceObject();
+//MyFrame f= new DisplayFaceObject();
+//MyFrame d = new DisplayFaceAndTree();
+MyFrame c = new DisplayCarObject();
 
 	}
 }
