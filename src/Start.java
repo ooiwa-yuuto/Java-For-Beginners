@@ -15,7 +15,8 @@ System.out.println("プログラムを実行します。");
 //MyFrame frame9 = new DisplayFace();
 //MyFrame f= new DisplayFaceObject();
 //MyFrame d = new DisplayFaceAndTree();
-MyFrame c = new DisplayCarObject();
-
+//MyFrame c = new DisplayCarObject();
+//MyFrame v = new DisplayFaceVector();
+MyFrame g = new DisplayCar();
 	}
 }
