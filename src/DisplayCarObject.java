@@ -10,8 +10,8 @@ Car car1 = new Car(50,50,10,0);
 		car1.draw(this);
 		car2.draw(this);
 		
-		car1.move();
-		car2.move();
+		car1.move(this);
+		car2.move(this);
 		sleep(0.1);
 	}
 }

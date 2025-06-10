@@ -15,7 +15,7 @@ Vector<Car> cars = new Vector<Car>();
 		clear();
 		for(int j=0; j<cars.size(); j++) {
 			cars.get(j).draw(this);
-			cars.get(j).move();
+			cars.get(j).move(this);
 		}
 		
 		sleep(0.1);
