@@ -21,6 +21,7 @@ System.out.println("プログラムを実行します。");
 //MyFrame j = new DisplayCars();
 //MyFrame w = new DisplayCarTrain();
 //MyFrame q = new DisplayCarsTrains();
-MyFrame p = new DisplayVehicleVector();
+//MyFrame p = new DisplayVehicleVector();
+MyFrame h = new PlayAnimation();
 	}
 }
